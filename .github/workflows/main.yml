@@ -1,20 +1,20 @@
-name: firest workflow
+name: First Workflow
 
-on: 
+on:
   push:
     branches:
       - main
 
 jobs:
   example-job:
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-latest
 
-    steps: 
-      - name: print welcom massege
-        run: echo "hello our github action users"
+    steps:
+      - name: Print a welcome message
+        run: echo "Welcome to our first GitHub Actions Workflow!"
 
-      - name: Checkout
-        uses: actions/checkout@v6.1.0
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
 
-      - name: list
+      - name: List repository files
         run: ls -la
