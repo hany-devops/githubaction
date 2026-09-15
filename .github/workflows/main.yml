@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-jobe:
+jobs:
   example-job:
     runs-on: ubuntu-latest    
 
