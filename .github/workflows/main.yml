@@ -9,12 +9,12 @@ jobs:
   example-job:
     runs-on: ubuntu-latest    
 
-steps: 
-  - name: print welcom massege
-    run: echo "hello our github action users"
+    steps: 
+      - name: print welcom massege
+        run: echo "hello our github action users"
 
-  - name: Checkout
-    uses: actions/checkout@v6.1.0
+      - name: Checkout
+        uses: actions/checkout@v6.1.0
 
-  - name: list
-    run: ls -la
+      - name: list
+        run: ls -la
