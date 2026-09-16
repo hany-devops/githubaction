@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "Debug": "",
   "scripts": {
-    "test": "bash src/test.sh"
+    "test": "bash test.sh"
   },
   "dependencies": {}
 }
