@@ -8,7 +8,6 @@ on:
 
     paths:
       - "src/**"
-      - ".github/workflows/pushpr.yml"
 
   pull_request:
     branches:
@@ -23,4 +22,5 @@ jobs:
         uses: actions/checkout@v4.2.2
 
       - name: run tests
+        working-directory: src
         run: npm test
