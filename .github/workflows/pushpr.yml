@@ -8,6 +8,7 @@ on:
 
     paths:
       - "src/**"
+      - ".github/workflows/pushpr.yml"
 
   pull_request:
     branches:
