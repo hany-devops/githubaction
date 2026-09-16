@@ -1,3 +1,5 @@
+name: Test on Push and Pull Request
+
 on:
   push:
     branches:
