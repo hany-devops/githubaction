@@ -1,3 +1,5 @@
+name: manual app deployment
+
 on:
   workflow_dispatch:
     inputs:
