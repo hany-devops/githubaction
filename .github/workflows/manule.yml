@@ -1,3 +1,5 @@
+nam: manuale deployment
+
 on:
   workflow_dispatch:
     inputs:
